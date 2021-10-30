@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     padding: ;
     margin-bottom: 20px;
-   
+   align-items: center;
 }
 
 .button {
@@ -19,6 +19,7 @@ header {
     font-size: 24px;
     border-radius: 10px;
     float:right;
+    display: block;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
     padding: 25px 100px 25px 95px;
     justify-content: space-between;
     display: flex;
+    max-width: 1100px
 }
 
 .nav-link {
@@ -51,7 +53,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 0px;
+    display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px
 }
 
 article {
